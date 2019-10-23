@@ -20,9 +20,9 @@ To create a VPC on AWS:
   - Fill in the IPv4 CIDR block using the same convention used for the VPC connected to the subnet. eg, 20.20.20.0/24
   - Click create
 
-3. Select the Route Tables tab
+3. Select the Route Tables tab. Route tables allow us to connect our vpc with the Internet and to our public subnets.
   - Click create route table
   - Fill in the name tag, again paying close attention to naming convention.
   - Select the VPC you want to associate with it
   - Click Create.
-  -
+  - In order for the route table to work, we need to assign it an internet gateway
