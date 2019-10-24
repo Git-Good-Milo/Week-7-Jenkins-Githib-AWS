@@ -25,4 +25,8 @@ To create a VPC on AWS:
   - Fill in the name tag, again paying close attention to naming convention.
   - Select the VPC you want to associate with it
   - Click Create.
-  - In order for the route table to work, we need to assign it an internet gateway
+  - In order for the route table to work, we need to assign it an internet gateway. That will bed our next step
+
+4. Select Internet gateway
+  - Click create internet gateway
+  - lol
